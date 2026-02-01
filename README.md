@@ -5,7 +5,7 @@
 Webブラウザで動作する Siv3D プログラミングを簡単に始めるテンプレートです。
 このリポジトリを「Use This Template」して、Main.cppを編集すれば、docs/フォルダにブラウザで動作させるためのファイル一式が出来上がります。  
 
-## そのまま簡単にgithubで公開可能
+## 簡単にブラウザ上で動作するゲームがgithubで公開可能
 
 ![image](README.png)  
 初回は、Setting > Pages から Branch の設定を main /docs にして Saveを押す必要があります。
@@ -20,5 +20,6 @@ Webブラウザで動作する Siv3D プログラミングを簡単に始める�
 ## 謝辞
 
 これは <https://github.com/nokotan/OpenSiv3DForWeb-VSCode> をベースに作成しました。
+
 
 
