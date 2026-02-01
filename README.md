@@ -8,7 +8,7 @@ Webブラウザで動作する Siv3D プログラミングを簡単に始める�
 
 ## 簡単にゲームをGitHub Pagesで公開可能
 
-このテンプレートの公開ページ  
+動作サンプル例  
 <https://kunipoo.github.io/siv3d-web-template/>  
 
 ![image](README.png)  
@@ -27,6 +27,7 @@ Webブラウザで動作する Siv3D プログラミングを簡単に始める�
 ## 謝辞
 
 これは <https://github.com/nokotan/OpenSiv3DForWeb-VSCode> をベースに作成しました。
+
 
 
 
