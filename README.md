@@ -8,6 +8,9 @@ Webブラウザで動作する Siv3D プログラミングを簡単に始める�
 
 ## 簡単にゲームをGitHub Pagesで公開可能
 
+このテンプレートの公開ページ  
+<https://kunipoo.github.io/siv3d-web-template/>  
+
 ![image](README.png)  
 初回は設定が必要です  
 1. Setting > Pages から Branch の設定を main /docs にして Saveを押してください。
@@ -24,6 +27,7 @@ Webブラウザで動作する Siv3D プログラミングを簡単に始める�
 ## 謝辞
 
 これは <https://github.com/nokotan/OpenSiv3DForWeb-VSCode> をベースに作成しました。
+
 
 
 
