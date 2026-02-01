@@ -21,7 +21,6 @@ jobs:
         run: |
           # 削除したいファイルやフォルダを指定
           rm -rf .github/workflows/cleanup.yml
-          rm -rf docs/index.*
           rm README.md
           
           # Gitの設定とコミット
