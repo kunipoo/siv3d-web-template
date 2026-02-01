@@ -2,14 +2,13 @@
 
 ## 概要
 
-Webブラウザで動作する Siv3D プログラミングをちょ～簡単に始めるための環境です。  
-このリポジトリをForkして、Main.cppをいぢれば、docs/フォルダにブラウザで動作させるためのファイル一式ができます。  
-初回は「Actions」からGithub Actionsを有効にする必要があります。  
+Webブラウザで動作する Siv3D プログラミングを簡単に始めるテンプレートです。
+このリポジトリを「Use This Template」して、Main.cppを編集すれば、docs/フォルダにブラウザで動作させるためのファイル一式が出来上がります。  
 
-## そのままgithubで公開!
+## そのまま簡単にgithubで公開可能
 
 <https://qiita.com/comefrombottom/items/973cab41b7997588ba72>  
-初回は↑6をする必要があります。  
+初回は上記の(1)と(6)をする必要があります。  
 
 ## ライセンス表記
 
@@ -21,3 +20,4 @@ Webブラウザで動作する Siv3D プログラミングをちょ～簡単に�
 ## 謝辞
 
 これは <https://github.com/nokotan/OpenSiv3DForWeb-VSCode> をベースに作成しました。
+
