@@ -1,0 +1,33 @@
+name: Template Cleanup
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    # 重要: オリジナルのリポジトリでは実行されないようにする
+    if: github.repository != 'kunipoo/siv3d-web-template'
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Cleanup files
+        run: |
+          # 削除したいファイルやフォルダを指定
+          rm -rf .github/workflows/cleanup.yml
+          rm -rf maintainer_scripts/
+          rm -rf docs/index.*
+          rm README.md
+          
+          # Gitの設定とコミット
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add .
+          git commit -m "Initialize project (Clean up template files)" || echo "No changes to commit"
+          git push
